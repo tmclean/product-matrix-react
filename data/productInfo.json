@@ -1,0 +1,201 @@
+{
+	"products": [
+		{
+			"name": "Product 1",
+
+			"release":{ "name": "1.0.1", "date": "October 28, 2015", "url":  "#" },
+
+			"development": { "name": "1.0.2-SNAPSHOT", "url": "#" },
+
+			"generalLinks": [
+				{ "name": "JIRA",  "url": "#" },
+				{ "name": "Git", "url": "#" }
+			],
+
+			"installers": [
+				{
+					"os": "Windows",
+					"arch": "x32", 
+					"url": "#",
+					"dependencies": [
+						{ "name": "ImageMagick", "version": "6.12.5-16", "url": "#" },
+						{ "name": "GhostScript", "version": "9.0.7",     "url": "#" },
+						{ "name": "qPDF",        "version": "5.0.1",     "url": "#" },
+						{ "name": "wkhtmltopdf", "version": "0.10.1",    "url": "#" }
+					]
+				},
+				{
+					"os": "Windows",
+					"arch": "x64", 
+					"url": "#",
+					"dependencies": [
+						{ "name": "ImageMagick", "version": "6.12.5-16", "url": "#" },
+						{ "name": "GhostScript", "version": "9.0.7",     "url": "#" },
+						{ "name": "qPDF",        "version": "5.0.1",     "url": "#" },
+						{ "name": "wkhtmltopdf", "version": "0.10.1",    "url": "#" }
+					]
+				},
+				{
+					"os": "RedHat Enterprise Linux",
+					"arch": "x64", 
+					"url": "#",
+					"dependencies": [
+						{ "name": "ImageMagick", "version": "6.12.5-16", "url": "#" },
+						{ "name": "GhostScript", "version": "9.0.7",     "url": "#" },
+						{ "name": "qPDF",        "version": "5.0.1",     "url": "#" },
+						{ "name": "wkhtmltopdf", "version": "0.10.1",    "url": "#" }
+					]
+				},
+				{
+					"os": "Solaris",
+					"arch": "x64", 
+					"url": "#",
+					"dependencies": [
+						{ "name": "ImageMagick", "version": "6.12.5-16", "url": "#" },
+						{ "name": "GhostScript", "version": "9.0.7",     "url": "#" },
+						{ "name": "qPDF",        "version": "5.0.1",     "url": "#" },
+						{ "name": "wkhtmltopdf", "version": "0.10.1",    "url": "#" }
+					]
+				},
+				{
+					"os": "Solaris",
+					"arch": "SPARC", 
+					"url": "#",
+					"dependencies": [
+						{ "name": "ImageMagick", "version": "6.12.5-16", "url": "#" },
+						{ "name": "GhostScript", "version": "9.0.7",     "url": "#" },
+						{ "name": "qPDF",        "version": "5.0.1",     "url": "#" },
+						{ "name": "wkhtmltopdf", "version": "0.10.1",    "url": "#" }
+					]
+				}
+			]
+		},
+		{
+			"name": "Product 2",
+
+			"release":{ "name": "3.3.12", "date": "October 28, 2015", "url":  "#" },
+
+			"development": { "name": "3.4.1-SNAPSHOT", "url": "#" },
+
+			"generalLinks": [
+				{ "name": "JIRA",  "url": "#" },
+				{ "name": "Git", "url": "#" }
+			],
+
+			"installers": [
+				{
+					"os": "Windows",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "RedHat Enterprise Linux",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "AIX",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "HP-UX",
+					"arch": "x64", 
+					"url": "#"
+				}
+			]
+		},
+		{
+			"name": "Product 3",
+
+			"release":{ "name": "4.2.1", "date": "October 28, 2015", "url":  "#" },
+
+			"development": { "name": "4.2.2-SNAPSHOT", "url": "#" },
+
+			"generalLinks": [
+				{ "name": "JIRA",  "url": "#" },
+				{ "name": "Git", "url": "#" }
+			],
+
+			"installers": [
+				{
+					"os": "Windows",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "RedHat Enterprise Linux",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "Solaris",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "Solaris",
+					"arch": "SPARC", 
+					"url": "#",
+					"dependencies": []
+				},
+				{
+					"os": "AIX",
+					"arch": "x32", 
+					"url": "#"
+				},
+				{
+					"os": "HP-UX",
+					"arch": "x32", 
+					"url": "#"
+				}
+			]
+		},
+		{
+			"name": "Product 4",
+
+			"release":{ "name": "5.2.1", "date": "October 28, 2015", "url":  "#" },
+
+			"development": { "name": "5.2.2-SNAPSHOT", "url": "#" },
+
+			"generalLinks": [
+				{ "name": "JIRA",  "url": "#" },
+				{ "name": "Git", "url": "#" }
+			],
+
+			"installers": [
+				{
+					"os": "Windows",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "RedHat Enterprise Linux",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "Solaris",
+					"arch": "x64", 
+					"url": "#"
+				},
+				{
+					"os": "Solaris",
+					"arch": "SPARC", 
+					"url": "#",
+					"dependencies": []
+				},
+				{
+					"os": "AIX",
+					"arch": "x32", 
+					"url": "#"
+				},
+				{
+					"os": "HP-UX",
+					"arch": "x32", 
+					"url": "#"
+				}
+			]
+		}
+	]
+}
